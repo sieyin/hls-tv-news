@@ -117,10 +117,11 @@
 				<li value="6"><a onclick="zap(this);">DW EN</a></li>
 				<li value="7"><a onclick="zap(this);">DW ES</a></li>
 				<li value="8"><a onclick="zap(this);">Al Jazeera</a></li>
-				<li value="9"><a onclick="zap(this);">ABC News</a></li>
-				<li value="10"><a onclick="zap(this);">CBS News</a></li>
-				<li value="11"><a onclick="zap(this);">NBC News</a></li>
-				<li value="12"><a onclick="zap(this);">Bloomberg TV</a></li>
+				<li value="9"><a onclick="zap(this);">NHK World</a></li>
+				<li value="10"><a onclick="zap(this);">ABC News</a></li>
+				<li value="11"><a onclick="zap(this);">CBS News</a></li>
+				<li value="12"><a onclick="zap(this);">NBC News</a></li>
+				<li value="13"><a onclick="zap(this);">Bloomberg TV</a></li>
 			</ol>
 		</section>
 
@@ -173,15 +174,18 @@
 						var stream = "https://live-hls-v3-aje.getaj.net/AJE-V3/index.m3u8";
 						break
 					case 9:
-						var stream = "https://lnc-abc-news.tubi.video/index.m3u8";
+						var stream = "https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8";
 						break
 					case 10:
-						var stream = "https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8";
+						var stream = "https://lnc-abc-news.tubi.video/index.m3u8";
 						break
 					case 11:
-						var stream = "https://lnc-nbc-news-now.tubi.video/master.m3u8";
+						var stream = "https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8";
 						break
 					case 12:
+						var stream = "https://lnc-nbc-news-now.tubi.video/master.m3u8";
+						break
+					case 13:
 						var stream = "https://bloomberg-bloomberg-1-be.samsung.wurl.tv/playlist.m3u8";
 						break
 					default:
