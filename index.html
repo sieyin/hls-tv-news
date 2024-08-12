@@ -109,9 +109,9 @@
 
 		<section>
 			<ol>
-				<li value="1"><a onclick="zap(this);">TVE 24h</a></li>
-				<li value="2"><a onclick="zap(this);">Teledeporte</a></li>
-				<li value="3"><a onclick="zap(this);">3 24</a></li>
+				<li value="1"><a onclick="zap(this);">3 24</a></li>
+				<li value="2"><a onclick="zap(this);">TVE 24h</a></li>
+				<li value="3"><a onclick="zap(this);">Teledeporte</a></li>
 				<li value="4"><a onclick="zap(this);">Euronews</a></li>
 				<li value="5"><a onclick="zap(this);">BBC News</a></li>
 				<li value="6"><a onclick="zap(this);">DW EN</a></li>
@@ -150,13 +150,13 @@
 			function zap(channel) {
 				switch(channel.parentElement.value) {
 					case 1:
-						var stream = "https://rtvelivestream.akamaized.net/rtvesec/24h/24h_main_dvr.m3u8";
+						var stream = "https://directes-tv-int.ccma.cat/live-origin/canal324-hls/master.m3u8";
 						break
 					case 2:
-						var stream = "https://rtvelivestream.akamaized.net/rtvesec/tdp/tdp_main.m3u8";
+						var stream = "https://rtvelivestream.akamaized.net/rtvesec/24h/24h_main_dvr.m3u8";
 						break
 					case 3:
-						var stream = "https://directes-tv-int.ccma.cat/live-origin/canal324-hls/master.m3u8";
+						var stream = "https://rtvelivestream.akamaized.net/rtvesec/tdp/tdp_main.m3u8";
 						break
 					case 4:
 						var stream = "https://lnc-euronews2.tubi.video/euronews-en.m3u8";
